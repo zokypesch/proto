@@ -1,0 +1,6 @@
+service: rg-prototype
+stack: go
+ignorePath:
+  - vendor
+dependencies:
+ - rg-belanja-transaction/grpc/proto/transaction/transaction.proto
